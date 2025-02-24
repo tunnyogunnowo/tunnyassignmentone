@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather Conversion Tool</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="mark_converter.html">Mark to Grade</a></li>
+                <li><a href="staff_directory.html">Staff Directory</a></li>
+                <li><a href="weather_tool.html">Weather Tool</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <h1>Weather Converter</h1>
+        <form id="tempForm">
+            <label for="tempInput">Enter Temperature (Fahrenheit):</label>
+            <input type="number" id="tempInput" required>
+            <button type="button" id="convertToCelsius">Convert to Celsius</button>
+            <button type="button" id="convertToKelvin">Convert to Kelvin</button>
+        </form>
+        <p id="tempOutput"></p>
+    </main>
+
+    <footer>
+        <p>&copy; <span id="footerYear">2025</span> Tunny Ogunnowo</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

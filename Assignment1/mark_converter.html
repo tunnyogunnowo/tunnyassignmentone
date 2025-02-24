@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mark to Grade Converter</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="mark_converter.html">Mark to Grade</a></li>
+                <li><a href="staff_directory.html">Staff Directory</a></li>
+                <li><a href="weather_tool.html">Weather Tool</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <h1>Mark to Grade Converter</h1>
+        <form id="gradeForm">
+            <label for="markInput">Enter a Mark (0 - 100):</label>
+            <input type="number" id="markInput" min="0" max="100" required>
+            <button type="submit">Check Grade</button>
+        </form>
+        <p id="errorMsg"></p>
+        <p id="gradeOutput"></p>
+    </main>
+
+    <footer>
+        <p>&copy; <span id="footerYear">2025</span> Tunny Ogunnowo</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
